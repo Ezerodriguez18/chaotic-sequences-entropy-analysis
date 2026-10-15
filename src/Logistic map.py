@@ -144,7 +144,6 @@ if __name__ == "__main__":# ejecuta solo si es codigo principal
     N = 100_000_000   # Para NIST con 100_000_000
    # N = 200_000_000   # Para metodo D
     SKIP = 0
-    FPGA_BITS = 65536
 
     print("Generando secuencia logística...")
     seq = logistic_map_sequence(r, x0, N, SKIP)
