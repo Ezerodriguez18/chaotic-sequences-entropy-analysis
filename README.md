@@ -4,9 +4,9 @@ Python scripts for chaotic sequence generation and block entropy analysis, suppo
 
 ```text
 ├── src/
-│   ├── tent_maps.py        # Implementation of chaotic sequence generators
-│   ├── Logistic_maps.py        # Implementation of chaotic sequence generators
-│   ├── LFSR.py        # Implementation of LFSR sequence generators
+│   ├── tent_maps.py        # Implementation of Tent chaotic sequence generators
+│   ├── Logistic_maps.py        # Implementation of Logistic Chaotic Sequence Generators
+│   ├── Individual_sequence_from_bin.py # Separation of 50 sequences of 65535 bits from the original array in the .bin file 
 │   ├── Software_sequence.py        # Implementation of SOFTWARE sequence generators
-│   ├── rate_entropy.py  # Block entropy calculation and statistical metrics
+│   ├── rate_entropy.py  # Block entropy calculation
 └── README.md
